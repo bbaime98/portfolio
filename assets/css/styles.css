@@ -313,6 +313,12 @@ img {
 }
 .portfolio__link-name {
   color: var(--dark-color);
+  text-align: center;
+}
+.portfolio__link-name span {
+  color: var(--first-color);
+  text-align: center;
+  font-weight: bold;
 }
 
 /* ===== CONTACT =====*/
