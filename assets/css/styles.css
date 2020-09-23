@@ -10,7 +10,8 @@
 /*===== Colores =====*/
 :root {
   /* --first-color: #d3d3d3; */
-  --first-color: #ffba08;
+  --first-color: #da1e37;
+  --home-color: #da1e37;
   /* --first-color: #d90429; */
   --white-color: #fafaff;
   --yellow-color: #ff7b00;
@@ -186,7 +187,7 @@ img {
 /*===== HOME =====*/
 .home {
   position: relative;
-  background-color: var(--first-color);
+  background-color: var(--home-color);
   overflow: hidden;
 }
 .home__container {
@@ -317,6 +318,7 @@ img {
 .portfolio__link-name {
   color: var(--dark-color);
   text-align: center;
+  font-weight: bold;
 }
 .portfolio__link-name span {
   color: var(--first-color);
