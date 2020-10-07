@@ -1,245 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ===== CSS ===== -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ===== BOX ICONS ===== -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
-    <title>Bien Aime</title>
-  </head>
-  <body>
-    <!--===== HEADER =====-->
-    <header class="l-header">
-      <nav class="nav bd-grid">
+  <!-- ===== CSS ===== -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- ===== BOX ICONS ===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+  <title>Bien Aime</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header>
+    <nav class="side-navbar">
+      <ul class="side-navbar-list">
+        <li class="logo">
+          <a href="#" class="logo-icons">
+            <i class="fab fa-bootstrap"></i>
+            <i class="fab fa-buysellads"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#home" class="nav-link">
+            <i class="fas fa-home"></i>
+
+            <span class="link-text">Home</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#about" class="nav-link">
+            <i class="fas fa-user"></i>
+
+            <span class="link-text">About</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#skills" class="nav-link">
+            <i class="fas fa-laptop"></i>
+
+            <span class="link-text">Skills</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#portfolio" class="nav-link">
+            <i class="fas fa-list-alt"></i>
+
+            <span class="link-text">Projects</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <!--HOME-->
+    <div class="home-container" id="home">
+      <div class="left">
+        <div class="text-typing">
+<h2 >Bien Aime</h2>
+        </div>
+        
+        <p>
+          < Web /> and Mobile App</p>
+        <p>Software Engineer</p>
+      </div>
+      <div class="right">
+        <img src="assets/img/real.png" alt="" />
+      </div>
+    </div>
+    <!-- <div class="nothing">ok</div> -->
+
+    <!--ABOUT-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__imgg">
+          <h2 class="about__subtitle">Hey, I am</h2>
+          <p class="about__text">
+            A collaborative, responsible,and detail-oriented javascript
+            full-stack software engineer. I work diligently as an
+            individual and as a team member, to develop professional web and
+            mobile applications. My tasks concern analyzing, testing,
+            debugging, troubleshooting, and implementing based on user or
+            system design specifications.
+         
+          I've built up professional experience by working in High Tech Companies:  
+          Andela,
+          Yego Innovision Ltd,
+          Uplus mutual partners Ltd, and
+          Dynamic Project Managers Ltd.
+          <br />
+          <span class="about-me-span">
+          My passion is to contribute to outstanding systems that enhance people's lives.</span>
+          </p>
+
+        </div>
+
         <div>
-          <a href="#" class="nav__logo">Bien Aime</a>
-        </div>
-
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">About</a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">Skills</a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">Projects</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
-      </nav>
-    </header>
-
-    <main class="l-main">
-      <!--HOME-->
-      <section class="home" id="home">
-        <div class="home__container bd-grid">
-          <h1 class="home__title"><span>Bien</span><br />Aime</h1>
-
-          <img src="assets/img/real.png" alt="" class="home__img" />
-        </div>
-      </section>
-
-      <!--ABOUT-->
-      <section class="about section" id="about">
-        <h2 class="section-title">About Me</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__imgg">
-            <!-- <img src="assets/img/perfil.jpg" alt="" /> -->
-            <h2 class="about__subtitle"> < Web /> & Mobile App</h2>
-            <h2 class="about__subtitle">Software Engineer</h2>
-            <!-- <span class="about__profession">Software Engineer</span> -->
-            <p class="about__text">
-              I am a collaborative, responsible,and detail-oriented javascript
-              full-stack software engineer. I work diligently as an
-              individual and as a team member. I develop professional web and
-              mobile applications. My tasks concern analyzing, testing,
-              debugging, troubleshooting, and implementing based on user or
-              system design specifications.
-            </p>
+          <div class="about__social">
+            <a href="https://www.linkedin.com/in/bien-aim%C3%A9/" class="about__social-icon"><i
+                class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/bbaime98" class="about__social-icon"><i class="bx bxl-github"></i></a>
+            <a href="https://twitter.com/BienAimJean1" class="about__social-icon"><i class="bx bxl-twitter"></i></a>
           </div>
-
-          <div>
-            <div class="about__social">
-              <a
-                href="https://www.linkedin.com/in/bien-aim%C3%A9/"
-                class="about__social-icon"
-                ><i class="bx bxl-linkedin"></i
-              ></a>
-              <a href="https://github.com/bbaime98" class="about__social-icon"
-                ><i class="bx bxl-github"></i
-              ></a>
-              <a
-                href="https://twitter.com/BienAimJean1"
-                class="about__social-icon"
-                ><i class="bx bxl-twitter"></i
-              ></a>
-            </div>
-            <div class="about__social">
-              <p>Tel: +250 787021865</p>
-              <p>Email: bybienaime@gmail.com</p>
-            </div>
+          <div class="about__social">
+            <p>Tel: +250 787021865</p>
+            <p>Email: bybienaime@gmail.com</p>
           </div>
         </div>
-      </section>
+      </div>
+      
+    </section>
+ 
 
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
 
-      <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
+      <div class="skills__container bd-grid">
+        <div class="skills__box">
+          <h3 class="skills__subtitle">Frontend & Mobile</h3>
+          <span class="skills__name">Html</span>
+          <span class="skills__name">Css</span>
+          <span class="skills__name">Bootstrap</span>
+          <span class="skills__name">Material-UI</span>
+          <span class="skills__name">React</span>
+          <span class="skills__name">React Native</span>
+          <span class="skills__name">Redux</span>
 
-        <div class="skills__container bd-grid">
-          <div class="skills__box">
-            <h3 class="skills__subtitle">Frontend & Mobile</h3>
-            <span class="skills__name">Html</span>
-            <span class="skills__name">Css</span>
-            <span class="skills__name">Scss</span>
-            <span class="skills__name">React</span>
-            <span class="skills__name">React Native</span>
-            <span class="skills__name">Redux</span>
-
-            <h3 class="skills__subtitle">Backend</h3>
-            <span class="skills__name">Node</span>
-            <span class="skills__name">Express</span>
-            <span class="skills__name">GraphQl</span>
-          </div>
-          <div class="skills__box">
-            <h3 class="skills__subtitle">Database</h3>
-            <span class="skills__name">Firebase</span>
-            <span class="skills__name">Mongo DB</span>
-            <span class="skills__name">Postgres</span>
-
-            <h3 class="skills__subtitle">Dev ops & Testing frameWorks</h3>
-            <span class="skills__name">Heroku</span>
-            <span class="skills__name">Github</span>
-            <span class="skills__name">Mocha</span>
-            <span class="skills__name">Chai</span>
-            <span class="skills__name">Jest</span>
-            <span class="skills__name">Enzyme</span>
-          </div>
+          <h3 class="skills__subtitle">Backend</h3>
+          <span class="skills__name">Node</span>
+          <span class="skills__name">Express</span>
+          <span class="skills__name">GraphQl</span>
         </div>
-      </section>
+        <div class="skills__box">
+          <h3 class="skills__subtitle">Database</h3>
+          <span class="skills__name">Firebase</span>
+          <span class="skills__name">Mongo DB</span>
+          <span class="skills__name">Postgres</span>
 
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section-title">Projects</h2>
+          <h3 class="skills__subtitle">Dev ops & Testing frameWorks</h3>
+          <span class="skills__name">Heroku</span>
+          <span class="skills__name">Github</span>
+          <span class="skills__name">Mocha</span>
+          <span class="skills__name">Chai</span>
+          <span class="skills__name">Jest</span>
+          <span class="skills__name">Enzyme</span>
+        </div>
+      </div>
+    </section>
 
-        <div class="portfolio__container bd-grid">
-          <div class="portfolio__img">
-            <img src="assets/img/img22.jpg" alt="" />
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section-title">Projects</h2>
 
-            <div class="portfolio__link">
-              <a
-                href="https://expo.io/@bienaime/projects/diary-app"
-                class="portfolio__link-name"
-                ><span>React Native, Redux, Node, Express, Postgres </span
-                ></a
-              >
-            </div>
-            <p><span class="portfolio__link-name">My Diary App (IOS & Android)</span>
-              <br />Document your daily life experience, research, todos and much more. My diary App helps you to create and save everything you might need in the future. Remember, memories last forever. Do you want to keep track of your daily improvement on any task, it’s simple, use My Diary App it’s free and very useful.</p>
+      <div class="portfolio__container bd-grid">
+        <div class="portfolio__img">
+          <img src="assets/img/img22.jpg" alt="" />
+
+          <div class="portfolio__link">
+            <a href="https://expo.io/@bienaime/projects/diary-app" class="portfolio__link-name"><span>React Native,
+                Redux, Node, Express, Postgres </span>
+                <span><p   class="live-version">Click Here</p></span>
+              </a>
           </div>
-          <div class="portfolio__img">
-            <img src="assets/img/shop.jpg" alt="" />
+          <p><span class="portfolio__link-name">My Diary App (IOS & Android)</span>
+            <br />Document your daily life experience, research, todos and much more. My diary App helps you to create
+            and save everything you might need in the future. Remember, memories last forever. Do you want to keep track
+            of your daily improvement on any task, it’s simple, use My Diary App it’s free and very useful.</p>
+        </div>
+        <div class="portfolio__img">
+          <img src="assets/img/shop.jpg" alt="" />
 
-            <div class="portfolio__link">
-              <a
-                href="https://expo.io/@bienaime/easyShop"
-                class="portfolio__link-name"
-                ><span>Node, Express, React Native</span
-                ></a
-              >
-            </div>
-            <p><span class="portfolio__link-name">Easy Shop Mobile App(IOS & Android)</span><br /> This is a marketplace for selling and
-              buying quality products. With this app you can buy unique and high value product at any price.
+          <div class="portfolio__link">
+            <a href="https://expo.io/@bienaime/easyShop" class="portfolio__link-name"><span>Node, Express, React
+                Native</span>
+                <span><p   class="live-version">Click Here</p></span>
+              </a>
+          </div>
+          <p><span class="portfolio__link-name">Easy Shop Mobile App(IOS & Android)</span><br /> This is a marketplace
+            for selling and
+            buying quality products. With this app you can buy unique and high value product at any price.
             Additionally, you can also earn money by selling your items to whole world</p>
-          </div>
-
-          <div class="portfolio__img">
-            <img src="assets/img/beach.jpg" alt="" />
-
-            <div class="portfolio__link">
-              <a
-                href="https://beach-resort-app.herokuapp.com/"
-                class="portfolio__link-name"
-                ><span
-                  >HTML, CSS & React</span
-                ></a
-              >
-            </div>
-            <p><span class="portfolio__link-name">Beach Resort</span>
-              <br /> 
-              In case you want to have a nice, calm amd cheerful relaxation, this is the best place to find luxurious rooms that are
-              extremely comfortable with best services.</p>
-          </div>
-
-
-          <div class="portfolio__img">
-            <img src="assets/img/event.jpg" alt="" />
-
-            <div class="portfolio__link">
-              <a
-                href="https://event-pro-ui.herokuapp.com/auth"
-                class="portfolio__link-name"
-                ><span>React, Node, GraphQL, Mongo DB</span
-                ></a
-              >
-            </div>
-            <p><span class="portfolio__link-name">Event Pro</span>
-              <br />Create and share your events professionally.This platform ease Event
-               management by providing easy means of planning, creating and sharing events details. You can find and book interesting events such as festivals, conferences, and concerts</p>
-          </div>
-
-
         </div>
-      </section>
+
+        <div class="portfolio__img">
+          <img src="assets/img/beach.jpg" alt="" />
+
+          <div class="portfolio__link">
+            <a href="https://beach-resort-app.herokuapp.com/" class="portfolio__link-name"><span>HTML, CSS &
+                React</span>
+                <span><p   class="live-version">Click Here</p></span>
+              </a>
+          </div>
+          <p><span class="portfolio__link-name">Beach Resort</span>
+            <br />
+            In case you want to have a nice, calm amd cheerful relaxation, this is the best place to find luxurious
+            rooms that are
+            extremely comfortable with best services.</p>
+        </div>
+
+
+        <div class="portfolio__img">
+          <img src="assets/img/event.jpg" alt="" />
+
+          <div class="portfolio__link">
+            <a href="https://event-pro-ui.herokuapp.com/auth" class="portfolio__link-name"><span>React, Node, GraphQL,
+                Mongo DB</span>
+                <br />
+              <span><p   class="live-version">Click Here</p></span>
+              </a>
+          </div>
+          <p><span class="portfolio__link-name">Event Pro</span>
+            <br />Create and share your events professionally.This platform ease Event
+            management by providing easy means of planning, creating and sharing events details. You can find and book
+            interesting events such as festivals, conferences, and concerts</p>
+        </div>
+
+        <div class="portfolio__img">
+          <img src="assets/img/Voice-Recognition.png" alt="" />
+
+          <div class="portfolio__link">
+            <a href="https://speech-recognition-ui.netlify.app/" class="portfolio__link-name"><span>React, Speechly API, Material UI</span>
+                <br />
+              <span><p   class="live-version">Click Here</p></span>
+              </a>
+          </div>
+          <p><span class="portfolio__link-name">Expense Tracker</span>
+            <br />Record your daily expenses using advanced voice recognition application</p>
+        </div>
+
+
+      </div>
+    </section>
     <div class="footer__container">
       <section class="social__media">
         <div class="social__media--wrap">
           <p class="website__rights">© Bien Aime 2020. All rights reserved</p>
           <div class="social__icons">
-            <a
-              class="social__icon--link"
-              href="https://www.linkedin.com/in/bien-aim%C3%A9/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
+            <a class="social__icon--link" href="https://www.linkedin.com/in/bien-aim%C3%A9/" target="_blank"
+              aria-label="LinkedIn">
               <i class="fab fa-linkedin"></i>
             </a>
-            <a
-              class="social__icon--link"
-              href="https://github.com/bbaime98"
-              target="_blank"
-              aria-label="Github"
-            >
+            <a class="social__icon--link" href="https://github.com/bbaime98" target="_blank" aria-label="Github">
               <i class="fab fa-github"></i>
             </a>
-            <a
-              class="social__icon--link"
-              href="https://twitter.com/BienAimJean1"
-              target="_blank"
-              aria-label="Twitter"
-            >
+            <a class="social__icon--link" href="https://twitter.com/BienAimJean1" target="_blank" aria-label="Twitter">
               <i class="fab fa-twitter"></i>
             </a>
           </div>
@@ -248,5 +262,6 @@
     </div>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="assets/js/main.js"></script>
-  </body>
+</body>
+
 </html>
