@@ -235,6 +235,11 @@ body::-webkit-scrollbar-thumb {
 .right {
   flex: 1;
 }
+.nothing {
+  background-color: #03071e;
+  height: 35vh;
+  flex: 2 100%;
+}
 
 @media only screen and (max-width: 600px) {
   .image-container img {
@@ -387,6 +392,145 @@ body::-webkit-scrollbar-thumb {
   width: 295px;
 }
 
+/* ===== COMPANIES =====* ***************/
+.body-container {
+  /* background: #d4d4d4; */
+  display: grid;
+  place-items: center;
+}
+/* .companies {
+  background: #d4d4d4;
+  display: grid;
+  place-items: center;
+} */
+.client-wrap {
+  width: 90%;
+  height: auto;
+  text-align: center;
+}
+.client-wrap h1 {
+  font-size: 20px;
+  color: #03071e;
+}
+/* .client-wrap hr {
+  width: 15%;
+  height: 5px;
+  border: none;
+  background: #26ccca;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+} */
+.client-in {
+  width: 100%;
+  height: auto;
+}
+.client-in ul {
+  padding: 0;
+  margin: 0;
+}
+
+.client-in ul li {
+  list-style: none;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  background: #c00404;
+  /* padding: 1rem; */
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
+  margin: 20px;
+  /* box-shadow: 1px 7px 5px -4px rgba(0, 0, 0, 0.46); */
+  box-shadow: -3px -5px 5px -4px rgba(0, 0, 0, 0.46);
+
+  cursor: pointer;
+}
+
+.client-in ul li img {
+  width: 100%;
+  height: 100%;
+}
+.client-in ul li img:nth-child(1) {
+  transform: translateY(0);
+  transition: 0.5s;
+}
+.client-in ul li img:nth-child(2) {
+  transform: translateY(0);
+  transition: 0.5s;
+}
+
+.client-in ul li:hover img:nth-child(1) {
+  transform: translateY(-100%);
+  transition: 0.5s;
+}
+.client-in ul li:hover img:nth-child(2) {
+  transform: translateY(-100%);
+  transition: 0.5s;
+}
+/* ===== END COMPANIES =====*/
+
+/* ===== Flip card =====*/
+
+.companies-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer {
+  position: relative;
+  width: 400px;
+  height: 150px;
+}
+.theCard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  box-shadow: -3px -5px 5px -4px rgba(0, 0, 0, 0.46);
+}
+.theFront {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #da1e37;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+.theFront p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.theFront i {
+  color: #03071e;
+  font-size: 3rem;
+  align-self: center;
+}
+.theBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  /* background: #fafafa; */
+  background: #03071e;
+  color: rgb(241, 240, 240);
+  transform: rotateX(180deg);
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+.theCard:hover {
+  transform: rotateX(180deg);
+}
+.theFront .sm-letters {
+  font-weight: normal;
+}
+/* ===== Flip END  =====*/
+
 /* ===== ABOUT =====*/
 .about__container {
   justify-items: center;
@@ -397,10 +541,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   padding-top: 1rem;
-  /* /* width: 400px; */
   height: 400px;
-  /* background-color: var(--first-color);
-  border-radius: 50%; */
   overflow: hidden;
 }
 .about__img img {
