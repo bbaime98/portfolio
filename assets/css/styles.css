@@ -196,7 +196,9 @@ body::-webkit-scrollbar-thumb {
   }
 }
 /******************END OF SAIDEBAR AND default SCROLL***********************/
-
+.live-version {
+  color: #03071e;
+}
 /*****NEW HOME SECTION *******/
 .home-container {
   height: 70vh;
