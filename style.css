@@ -168,15 +168,18 @@ figure img {
     section {
         display: flex;
         flex-direction: column;
+        height: auto;
     }
 
     .hero {
         padding: 20px;
         padding-top: 30px;
         width: 80vw !important;
-
+        margin-left: auto;
+        margin-right: auto;
         position: inherit;
         height: auto;
+        margin-top: 200px;
     }
 
     .hero h1 {
@@ -204,7 +207,7 @@ figure img {
 
     .hero p {
         font-size: 14px;
-        margin-top: -15px;
+        margin-top: 15px;
     }
 
     .btn__container {
@@ -223,6 +226,8 @@ figure img {
         width: 200px;
         top: 12%;
         left: 50%;
+        transform: translate(-12%, -30%) rotate(0deg) !important;
+
     }
 
     #heading {
@@ -232,9 +237,9 @@ figure img {
         position: relative;
         height: auto;
         transform: translateY(-50%) rotate(0deg);
-        top: 0;
         color: #a4bd13;
         margin-top: 30px;
+        margin-bottom: 30px;
         text-align: center;
         /* width: 80%; */
     }
